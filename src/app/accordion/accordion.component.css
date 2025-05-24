@@ -59,6 +59,8 @@ mat-panel-title {
   border-radius: 8px;
   color: white;
   font-size: 6rem;
+  position: relative;
+  cursor: pointer;
 }
 
 .tech-cell i {
@@ -96,6 +98,7 @@ mat-expansion-panel-header:hover {
 .tooltip {
   display: inherit;
   visibility: visible;
+  opacity: 1;
 }
 
 .tooltip .tooltiptext {
@@ -127,8 +130,8 @@ mat-expansion-panel-header:hover {
 }
 
 .tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 button {
