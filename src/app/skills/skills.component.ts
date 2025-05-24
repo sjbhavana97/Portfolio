@@ -13,6 +13,6 @@ import { AccordionComponent } from '../accordion/accordion.component';
 })
 export class SkillsComponent {
   constructor(private titleService: Title) {
-    this.titleService.setTitle('Bhavana | Education')
+    this.titleService.setTitle('Bhavana | Work Experience')
   }
 }
