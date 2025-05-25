@@ -1,0 +1,7 @@
+# .gitingnore
+/node_modules
+.angular/cache
+.angular/cache/*
+/dist
+/tmp
+.angular/cache/19.2.8/angular-portfolio-app/.tsbuildinfo
