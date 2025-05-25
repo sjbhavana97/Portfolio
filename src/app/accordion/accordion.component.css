@@ -9,7 +9,7 @@ mat-expansion-panel {
   background-color: #141a20;
   color: white;
   border-radius: 8px !important;
-  border-left: 4px solid #00ff00;
+  border-left: 4px solid #00F0FF;
 }
 
 mat-expansion-panel-header {
@@ -34,7 +34,7 @@ mat-panel-title {
 }
 
 .default-highlight {
-  color: #00ff00;
+  color: #00F0FF;
   font-weight: 600;
 }
 
@@ -53,7 +53,7 @@ mat-panel-title {
   justify-content: center;
   align-items: center;
   background-color: #27333f;
-  border: 2px solid #00ff00;
+  border: 2px solid #00F0FF;
   padding: 10px;
   margin: 20px 30px;
   border-radius: 8px;
@@ -97,7 +97,7 @@ mat-expansion-panel-header:hover {
 
 button {
   background-color: #141a2000;
-  border: 2px solid #00ff00;
+  border: 2px solid #00F0FF;
   border-radius: 8px;
   padding: 20px 20px;
   font-size: 1.25rem;

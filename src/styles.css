@@ -1,3 +1,10 @@
+html {
+--themeColor: white;
+}
+html.dark {
+--themeColor: dark;
+}
+
 .tag {
   padding: 0 20px;
   height: 30px;
@@ -34,14 +41,14 @@ body {
   display: block;
   margin-top: 5px;
   right: 0;
-  background: #00ff00;
+  background: #00F0FF;
   transition: width 0.3s ease, background-color 0.3s ease;
 }
 
 .a-green:hover::after {
   width: 100%;
   left: 0;
-  background: #00ff00;
+  background: #00F0FF;
 }
 
 .a-green:hover,
@@ -51,7 +58,7 @@ body {
 
 button {
   background-color: #141a2000;
-  border: 2px solid #00ff00;
+  border: 2px solid #00F0FF;
   border-radius: 8px;
   padding: 20px 20px;
   font-size: 1.25rem;
@@ -62,7 +69,7 @@ button {
 
 .button-small {
   background-color: #141a2000;
-  border: 2px solid #00ff00;
+  border: 2px solid #00F0FF;
   border-radius: 8px;
   padding: 10px 5px;
   width: 145px;
@@ -95,7 +102,7 @@ button:hover {
 
 .default-subtitle {
   font-size: 3.5rem;
-  color: #00ff00;
+  color: #00F0FF;
   margin-bottom: 3rem;
 }
 
@@ -107,7 +114,7 @@ button:hover {
 
 .default-subtopic {
   font-size: 2rem;
-  color: #00ff00;
+  color: #00F0FF;
   margin-bottom: 3rem;
 }
 
@@ -127,7 +134,7 @@ blockquote {
 }
 
 .default-highlight {
-  color: #00ff00;
+  color: #00F0FF;
 }
 
 .content-left {
@@ -166,12 +173,12 @@ blockquote {
   display: block;
   margin-top: 5px;
   right: 0;
-  background: #00ff00;
+  background: #00F0FF;
   transition: width 0.3s ease, background-color 0.3s ease;
 }
 
 .accordion-title .btn:hover::after {
   width: 100%;
   left: 0;
-  background: #00ff00;
+  background: #00F0FF;
 }

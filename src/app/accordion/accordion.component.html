@@ -1,18 +1,7 @@
 <div class="accordion-left">
   <mat-accordion>
-    <mat-expansion-panel class="customClass accordion-title">
-      <mat-expansion-panel-header>
-        <mat-panel-title>Languages</mat-panel-title>
-      </mat-expansion-panel-header>
-      <div class="accordion-text">
-        <p><span class="default-highlight">English</span></p>
-        <p><span class="default-highlight">Kannda</span></p>
-        <p><span class="default-highlight">Telugu</span></p>
-        <p><span class="default-highlight">Hindi</span></p>
-      </div>
-    </mat-expansion-panel>
-
-    <mat-expansion-panel class="customClass accordion-title">
+  
+    <mat-expansion-panel #university class="customClass accordion-title">
       <mat-expansion-panel-header>
         <mat-panel-title>University</mat-panel-title>
       </mat-expansion-panel-header>
@@ -30,7 +19,7 @@
       </div>
     </mat-expansion-panel>
 
-    <mat-expansion-panel class="customClass accordion-title">
+    <mat-expansion-panel #resume class="customClass accordion-title">
       <mat-expansion-panel-header>
         <mat-panel-title>Resume</mat-panel-title>
       </mat-expansion-panel-header>
@@ -48,7 +37,7 @@
       </div>
     </mat-expansion-panel>
 
-    <mat-expansion-panel class="customClass accordion-title">
+    <mat-expansion-panel #careerHighlights class="customClass accordion-title">
       <mat-expansion-panel-header>
         <mat-panel-title>Career Highlights</mat-panel-title>
       </mat-expansion-panel-header>
@@ -72,7 +61,7 @@
       </div>
     </mat-expansion-panel>
 
-    <mat-expansion-panel class="customClass accordion-title">
+    <mat-expansion-panel #workExperience class="customClass accordion-title">
       <mat-expansion-panel-header>
         <mat-panel-title>Work Experience</mat-panel-title>
       </mat-expansion-panel-header>
@@ -135,7 +124,7 @@
       </div>
     </mat-expansion-panel>
 
-    <mat-expansion-panel class="customClass accordion-title">
+    <mat-expansion-panel #TechStack class="customClass accordion-title">
       <mat-expansion-panel-header>
         <mat-panel-title>Techs I use</mat-panel-title>
       </mat-expansion-panel-header>
@@ -165,6 +154,10 @@
           <i class="devicon-css3-plain colored"></i>
           <span class="tooltiptext">CSS3</span>
         </div>
+         <div class="tooltip tech-cell">
+          <i class="devicon-sass-plain colored"></i>
+          <span class="tooltiptext">SCSS</span>
+        </div>
         <div class="tooltip tech-cell">
           <i class="devicon-python-plain colored"></i>
           <span class="tooltiptext">Python</span>
@@ -186,6 +179,18 @@
           <span class="tooltiptext">VS Code</span>
         </div>
         
+      </div>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel #Languages class="customClass accordion-title">
+      <mat-expansion-panel-header>
+        <mat-panel-title>Languages</mat-panel-title>
+      </mat-expansion-panel-header>
+      <div class="accordion-text">
+        <p><span class="default-highlight">English</span></p>
+        <p><span class="default-highlight">Kannda</span></p>
+        <p><span class="default-highlight">Telugu</span></p>
+        <p><span class="default-highlight">Hindi</span></p>
       </div>
     </mat-expansion-panel>
   </mat-accordion>

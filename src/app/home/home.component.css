@@ -21,34 +21,40 @@
     text-align: start;
 }
 
+.name-role{
+    display:flex;
+}
 .home-title {
-    font-size: 5rem;
+    font-size: 3.5rem;
     color: #e0f0ff;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     line-height: 5rem;
 }
 
 .home-author {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     color: #b0caf063;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 #dynamic-text {
-    border-right: 2px solid #00FF00;
+    border-right: 2px solid #00F0FF;
     padding-right: 5px;
     animation: blink-caret 0.7s step-end infinite;
-    color: #00FF00;
+    color: #00F0FF;
 }
 
 @keyframes blink-caret {
     from, to { border-color: transparent; }
-    50% { border-color: #00FF00; }
+    50% { border-color: #00F0FF; }
 }
 .button-flex{
     display:flex;
-    .resume-download{
-        margin-left:30px
+    button{
+        margin-left:30px;
+    }
+    > button:first-child{
+        margin-left:0px;
     }
 }
 
