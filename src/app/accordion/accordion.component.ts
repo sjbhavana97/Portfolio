@@ -5,7 +5,7 @@ import {
   MatExpansionPanelHeader,
   MatExpansionPanelTitle,
 } from '@angular/material/expansion';
-
+import {MatTooltipModule} from '@angular/material/tooltip';
 @Component({
   selector: 'app-accordion',
   standalone: true,
@@ -14,6 +14,7 @@ import {
     MatExpansionPanel,
     MatExpansionPanelHeader,
     MatExpansionPanelTitle,
+    MatTooltipModule
   ],
   templateUrl: './accordion.component.html',
   styleUrls: ['./accordion.component.css']
